@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+
+            <header class="head">
+                <div class="head__logo">
+                    <span>Logo</span>
+                </div>
+                <nav class="head__nav">
+                    <div class="nav__mobile">
+                        <input id="mobile__menu_toggle" type="checkbox" />
+                        <label class="mobile__menu_btn" for="mobile__menu_toggle">
+                            <span></span>
+                        </label>
+                        <div class="mobile__menu_box">
+                            <ul class="mobile__menu_list">
+                                <li><a class="mobile__menu_item" href="#">Проекты</a></li>
+                                <li><a class="mobile__menu_item" href="#">О компании</a></li>
+                                <li><a class="mobile__menu_item" href="#">Контакты</a></li>
+                            </ul>
+                            <div class="mobile__lang">
+                                <ul class="mobile__lang_list">
+                                    <li id="ru" class="mobile__lang_item">RU</li>
+                                    <li id="en" class="mobile__lang_item">EN</li>
+                                </ul>
+                            </div>
+                            <div class="mobile__start">
+                                <a href="#" class="mobile__startproj">Начать проект</a>
+                                <img class="mobile__arrow" src="/images/Group 1871.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav__desk">
+                            <ul class="desk__menu_list">
+                                <li><a class="desk__menu_item" href="#">Проекты</a></li>
+                                <li><a class="desk__menu_item" href="#">О компании</a></li>
+                                <li><a class="desk__menu_item" href="#">Контакты</a></li>
+                            </ul>
+                            <div class="desk__lang">
+                                <ul class="desk__lang_list">
+                                    <li id="en" class="desk__lang_item">EN</li>
+                                    <li id="ru" class="desk__lang_item">RU</li>
+                                </ul>
+                            </div>
+                            <div class="desk__start">
+                                <a href="#" class="desk__startproj">
+                                    Начать проект
+                                    <img class="desk__arrow" src="/images/Group 1871.png" alt="">
+                                </a>
+                                <img class="desk__ellipse" src="/images/Ellipse 13.png" alt="">
+                            </div>
+                    </div>
+                </nav>
+            </header>
+
+            <div class="width">
+                <div class="breadcrumbs">
+                    <div class="breadcrumbs__text">
+                        <span>Главная - <span class="breadcrumbs__text_bold">Контакты</span></span>
+                    </div>
+                </div>
+                <div class="main">
+                    <div class="dots"></div>
+                    <h1 class="main__head_text">Мы рядом</h1>
+                    <p class="main__text">
+                        Заполните форму ниже и мы свяжемся с вами. 
+                        Не любите формы? <span>Напишите нам на почту  
+                            <a class="text__mail_link" href="mailto:info@site.com">info@site.com</a></span> 
+                    </p>
+                </div>
+    
+                <div class="form">
+                    <form class="form__area" action="" method="post">
+                        <div class="form__name_place">
+                            <input type="text" name="Name" id="name" required>
+                            <div class="form__name_placeholder">
+                                Ваше имя <span>*</span>
+                            </div>
+                        </div>
+                        <div class="form__email_place">
+                            <input type="email" name="Email" id="email" required>
+                            <div class="form__email_placeholder">
+                                Ваш E-Mail <span>*</span>
+                            </div>
+                        </div>
+                        <div class="form__comm_place">
+                            <textarea required name="comm" maxlength="300" id="comm" cols="20" rows="3"></textarea>
+                            <div class="form__comm_placeholder">
+                                Комментарий <span>*</span>
+                            </div>
+                        </div>
+                        <div class="form__radio">
+                            <label class="radio__label" >
+                                <input type="radio" id="agree" required>
+                                <div class="radio__text">
+                                    Согласен с <a class="radio__link" href="#">Политикой конфиденциальности</a>
+                                </div>
+                            </label>
+                        </div>
+                        <div id="btn_div" class="form__button">
+                            <button id="btn" class="form__btn" type="submit">
+                                <img id="plane" class="form__img" src="/images/Vector.png" alt="">
+                                <p id="send_text">Отправить</p>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            
+        </div>
+        <footer class="foot">
+            <div class="foot__width">
+                <div class="foot__logo">
+                    <img src="/images/toimi.png" alt="">
+                </div>
+                <div class="foot__services">
+                    <h3 class="services__header">Услуги</h3>
+                    <ul class="services__list">
+                        <li><a href="#">Support and development</a></li>
+                        <li><a href="#">UI/UX and product design</a></li>
+                        <li><a href="#">Progressive Web Applications (PWA)</a></li>
+                    </ul>
+                </div>
+                <div class="foot__company">
+                    <h3 class="company__header">Компания</h3>
+                    <ul class="company__list">
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Проекты</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="foot__contacts">
+                    <h3 class="contacts__header">Контакты</h3>
+                    <ul class="contacts__list">
+                        <li><a href="#">Скачать презентацию <img src="/images/Group 2056.png" alt=""></a></li>
+                        <li><a class="contacts__numb" href="tel:+7(499)999-99-99">+7 (499) 999-99-99</a></li>
+                        <li><a href="mailto:info@site.com">info@site.com</a></li>
+                    </ul>
+                    <div class="contacts__icons">
+                        <a href="#"><img class="contacts__tele" src="/images/icons8-телеграмма-app-48.png" alt=""></a>
+                        <a href="#"><img src="/images/icons8-whatsapp-48.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="foot__confidence">
+                    <p class="confidence__policy">Политика конфиденциальности</p>
+                    <p class="confidence__copy">&copy; Company 2022. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
